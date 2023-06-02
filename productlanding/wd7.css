@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bebas+Neue|Roboto&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background:#faf4f4;
+}
+
+  header,footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    }
+  #header-img{
+    width: 80px;
+    height:80px;
+    margin-left: 20px;
+    }
+    #footer-img{
+      width: 100px;
+      height: 100px;
+      margin-top:10px;
+    }
+    .list{
+      display: inline-block;
+      margin: auto 25px auto 25px;
+  }
+  ul{
+  list-style-type: none;
+  }
+  .nav-link{
+      text-decoration: none;
+      color: white;
+      font-size: 24px;
+      font-weight: 600;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 1px;
+
+    }
+    .nav-link:hover{
+      color: red;
+      opacity: 0.7;
+      transition: 0.5s;
+    }
+  nav{
+    text-align: right;
+    width: 80%;
+    margin:auto;
+    padding: 10px;
+    height: auto;
+    }
+ .heading{
+     margin: 50px;
+     padding: 0;
+     background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     height: 500px;
+     text-align: center;
+ }
+ h1{
+   padding-top: 80px;
+     font-family: 'Bebas Neue', cursive;
+     font-size: 40px;
+     letter-spacing: 1.5px;
+     color: white;
+     }
+     .sub{
+       color: white;
+
+      }
+ h3{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+    background: black;
+    color: #faf4f4;
+    margin: 0;
+    padding: 5px;
+    font-size: 24px;
+ }
+
+p,li{
+font-family: 'Roboto', sans-serif;
+}
+.copy{
+  margin-right:30px;
+}
+
+
+#email{
+  margin-top: 100px;
+width: 75%;
+height: 40px;
+border-radius: 5%;
+border-style: none;
+font-size: 24px;
+font-weight: 500;
+padding: 5px;
+font-family: 'Roboto', sans-serif;
+}
+.btn{
+margin-top: 100px;
+padding: 10px;
+width: auto;
+height: 40px;
+font-size: 20px;
+font-weight: 600;
+color: white;
+background:#2B2B2B;
+border-radius:10%;
+border-style: none;
+}
+.btn:hover{
+  background: gray;
+  cursor: pointer;
+  transition: 0.5S;
+}
+.cnt{
+  margin-left: 200px;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+.icon-image{
+  width: 180px;
+  height: 120px;
+}
+.domain{
+  width: 35%;
+  height: 280px;
+  padding: 5px;
+  margin:20px;
+  text-align: center;
+  border-radius: 3%;
+  box-shadow: 1px 2px #E1E1E1;
+}
+.domain:hover{
+  height:290px;
+  width: 36%;
+  box-shadow:2px 4px #eaeaea;
+}
+h2{
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  color: red;
+  letter-spacing: 0.8px;
+ }
+ .hosting{
+   margin: 30px;
+   text-align: center;
+ }
+ .cont{
+   margin-left: 200px;
+   width: 75%;
+   display: flex;
+   flex-direction: row;
+
+ }
+.prices{
+  width: 32%;
+  height: 300px;
+  padding: 15px;
+  margin:20px;
+  text-align: center;
+  border-radius: 3%;
+  box-shadow: 1px 2px #E1E1E1;
+  text-align: left;
+}
+
+
+.prices:hover{
+  height:290px;
+  width: 32%;
+  box-shadow:2px 4px #eaeaea;
+  background-color: aqua;
+  transition: 1s;
+}
+li{
+  margin: 10px;
+}
+.buttons{
+  margin:30px ;
+  padding: 5px;
+  width: 70px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background:#2B2B2B;
+  border-radius:10%;
+  border-style: none;
+}
+.buttons:hover{
+  background: gray;
+  cursor: pointer;
+}
